@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* HTML */
+html {
+scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Consolas', sans-serif;
+  
+  
+
+font-size: 18px;
+margin: 0;
+}
+
+/*I will try to add an slide in animation here, hope it works */
+
+.header {
+    background: #0f0129;
+    color: white;
+    text-align: center;
+    padding: 100px 5px;
+  }
+ /* 
+  .header h1 {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    animation: showup 7s infinite;
+  }
+  
+  .header h1 span {
+    display: inline-block;
+    transform: translateY(-800px);
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+      0% {opacity:0;}
+      20% {opacity:1;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+      0% { transform: translateY(-800px); }
+      20% { transform: translateY(-800px); }
+      35% { transform: translateY(0px); }
+      100% { transform: translateY(0px); }
+  }
+  
+  @keyframes reveal {
+      0% {opacity:0;width:0px;}
+      20% {opacity:1;width:0px;}
+      30% {width:355px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:355px;}
+  }
+/*End animation here */
+*/
+
+.header a {
+color: white;
+padding: 5px 10px;
+margin: 0 3px;
+border: solid 1px white;
+border-radius: 10px;
+transition: all .5s;
+}
+.header a:hover {
+background: white;
+color: #2a5c84;
+}
+
+.main {
+background: #110027;
+padding: 10px 0 40px 0;
+}
+.main h2 {
+color: white;
+text-align: center;
+margin: 40px 0;
+}
+.main img {
+width: 100%;
+}
+.mokuji {
+background: white;
+width: 250px;
+margin: 30px auto;
+padding: 10px;
+border-radius: 10px;
+}
+.mokuji h3 {
+text-align: center;
+margin: 0;
+}
+.mokuji ul {
+margin: 10px 0;
+}
+.mokuji a {
+transition: all .5s;
+}
+.mokuji a:hover {
+color: orange;
+}
+.contents {
+background: white;
+width: 80%;
+margin: 0 auto;
+padding: 10px;
+border-radius: 10px;
+}
+.contents p {
+padding-left: 5px;
+border-left: solid 10px #2da9af;
+}
+.contents b {
+color: orangered;
+}
+.contents ol {
+margin: 10px 0;
+}
+.circle {
+width: 20px;
+margin: 40px auto;
+}
+.circle div {
+background: white;
+width: 20px;
+height: 20px;
+margin-bottom: 10px;
+border-radius: 100%;
+}
+
+.footer {
+background: #ce0000;
+color: white;
+text-align: center;
+padding: 10px 0;
+}
+
+/*Text animation style goes here*/
